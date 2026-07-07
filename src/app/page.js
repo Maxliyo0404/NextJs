@@ -1,16 +1,20 @@
 import Link from 'next/link'
 import React from 'react'
-const product = [
+const products = [
   {id: '1', name: "Samsung Galaxy S21"},
   {id: '2', name: "Samsung Galaxy S24"},
   {id: '3', name: "Ipxone 14 pro max"},
 ]
 function HomePage() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <Link href="./about" >About Pages</Link>
-    </div>
+    <main>
+      <h1>Products</h1>
+      <ul>
+        { 
+          products?.map((product, index))
+        }
+      </ul>
+    </main>
   )
 }
 
