@@ -11,7 +11,9 @@ function HomePage() {
       <h1>Products</h1>
       <ul>
         { 
-          products?.map((product, index))
+          products?.map((product, index)=>(
+            <li key={product?.id}></li>
+          ))
         }
       </ul>
     </main>
