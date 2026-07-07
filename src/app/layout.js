@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <header>
-        <nav className="flex gap-2">
+        <nav className="flex items-center justify-between gap-2 bg-amber-400">
           <Link href='/'>Home</Link>
           <Link href='/abut'>About</Link>
           <Link href='/product/:id'>Products</Link>
