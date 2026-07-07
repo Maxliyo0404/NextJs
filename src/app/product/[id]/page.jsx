@@ -5,7 +5,7 @@ import { useParams } from "next/navigation"
 
 export default function ProductPage() {
     const {id} = useParams()
-    const  product = products
+    const  product = products.find(p=> p?.id === id)
   return (
     <div>
         
