@@ -1,6 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
-
+const product = [
+  {id: '1', name: "Samsung Galaxy S21"},
+  {id: '1', name: "Samsung Galaxy S21"},
+]
 function HomePage() {
   return (
     <div>
