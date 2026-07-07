@@ -23,8 +23,8 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <header>
-        <nav>
-          
+        <nav className="flex gap-2">
+
         </nav>
       </header>
       <body className="min-h-full flex flex-col">{children}
