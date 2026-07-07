@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
     >
       <header>
         <nav className="flex gap-2">
-          <Link href={}></Link>
+          <Link href='/'>Home</Link>
         </nav>
       </header>
       <body className="min-h-full flex flex-col">{children}
