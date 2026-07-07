@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
 export const products = [
-  {id: '1', name: "Samsung Galaxy S21"},
-  {id: '2', name: "Samsung Galaxy S24"},
+  {id: '1', name: "Samsung Galaxy S21", price: '600$'},
+  {id: '2', name: "Samsung Galaxy S24", price: '600$'},
   {id: '3', name: "Ipxone 14 pro max"},
 ]
 function HomePage() {

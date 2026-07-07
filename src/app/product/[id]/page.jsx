@@ -8,7 +8,8 @@ export default function ProductPage() {
     const  product = products.find(p=> p?.id === id)
   return (
     <div>
-        
+        <h1>{product?.name}</h1>
+        <p>{product?.name}</p>
     </div>
   )
 }
