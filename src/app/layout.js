@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <header>
-        <nav className="flex  gap-2 bg-amber-400">
+        <nav className="flex  gap-2 bg-amber-900">
           <Link href='/'>Home</Link>
           <Link href='/abut'>About</Link>
         </nav>
