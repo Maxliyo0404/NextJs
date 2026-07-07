@@ -3,7 +3,7 @@ import React from 'react'
 export const products = [
   {id: '1', name: "Samsung Galaxy S21", price: '600$'},
   {id: '2', name: "Samsung Galaxy S24", price: '600$'},
-  {id: '3', name: "Ipxone 14 pro max"},
+  {id: '3', name: "Ipxone 14 pro max", price: '800$'},
 ]
 function HomePage() {
   return (
